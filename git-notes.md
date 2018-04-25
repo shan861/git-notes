@@ -2,16 +2,16 @@
 
 
 
-## git init
+## * git init
 ### ========
 ### Basic comman for initialise Git repository.
 ### this command creates a ".git" hidden folder under the main directory.
 
-## git status
+## * git status
 ### ==========
 ### Get status of the Git repository.
 
-## git add
+## * git add
 ### =======
 ### Add files to Git repository for tracking.
 
