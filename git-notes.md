@@ -1,26 +1,24 @@
 # Git basic commands
 
+##  git init
+###### Basic comman for initialise Git repository.
+###### this command creates a ".git" hidden folder under the main directory.
 
+##  git status
+###### Get status of the Git repository.
 
-## * git init
-### ========
-### Basic comman for initialise Git repository.
-### this command creates a ".git" hidden folder under the main directory.
+##  git add
+###### Add files to Git repository for tracking.
+```
 
-## * git status
-### ==========
-### Get status of the Git repository.
+ git add app.js --> single file added.
+ git add . --> all files in directory added.(git add -A)
+ 
+```
 
-## * git add
-### =======
-### Add files to Git repository for tracking.
+## git commit
 
--- git add app.js --> single file added.
--- git add . --> all files in directory added.(git add -A)
-
-* git commit
-==========
-creates a check poit.
+###### creates a check poit.
 
 -- git commit -m "write your comments here"
 
