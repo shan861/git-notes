@@ -17,64 +17,72 @@
 ```
 
 ## git commit
-
 ###### creates a check poit.
+```
 
--- git commit -m "write your comments here"
+ git commit -m "write your comments here"
+ 
+ ```
 
-* git log
-=========
-Get all commit information.
+## git log
+###### Get all commit information.
 
-* git checkout
-=============
-View from git repository.
+## git checkout
+###### View from git repository.
 
--- git checkout master
--- git checkout <GUID for commits>
+```
 
+git checkout master
+git checkout <GUID for commits>
+
+```
 
 # Git Branches
---------------
---------------
+## List all branches
 
--- List all branches
-===================
-* git branch
+```
+ git branch
+```
 
--- Adding a branch
-================
-* git checkout -b <branch-name>
+## Adding a branch
 
--- Changing branches
-==================
-* git checkout <branch-name>
+```
+ git checkout -b <branch-name>
+```
 
--- Merging branch
-=================
+## Changing branches
+```
+git checkout <branch-name>
+```
 
-just move to new branch need merge then type below command
-
-* git merge <branch-name>
-
+## Merging branch
+###### just move to new branch need merge then type below command
+```
+ git merge <branch-name>
 eg: (new-branch*):git merge master --> master will be merged to new-branch
+```
 
--- remove a branch
-==================
-* git branch -d <branch-name>
+## remove a branch
+```
+ git branch -d <branch-name>
+```
 
+# Adding to remote repository
 
-Adding to remote repository
-============================
+```
+ git remote add origin <url>
+ git remote add origin https://github.com/shan861/git-notes.git
+```
 
-* git remote add origin <url>
-* git remote add origin https://github.com/shan861/git-notes.git
+# check origin added as remote use 
+```
+git remote -v
+```
 
-check origin added as remote use 
-* git remote -v
-
-Push or Upload code to remote repository use
-* git push -u origin master
+# Push or Upload code to remote repository use
+```
+ git push -u origin master
+ ```
 
 
 
